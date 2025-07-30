@@ -25,7 +25,7 @@ const Projects: React.FC = () => {
       image: 'https://images.pexels.com/photos/34577/pexels-photo.jpg',
       technologies: ['Angular', 'HTML|CSS', 'SCSS', 'REST API', 'Stripe', 'Tailwind CSS', 'Bootstrap',],
       githubUrl: '#',
-      liveUrl: 'https://internship-journey-pmxjcrx1v-arsh-yadavs-projects-8a004559.vercel.app/routing',
+      liveUrl: 'https://internship-journey.vercel.app/routing',
       category: 'Full Stack'
     },
     {
@@ -36,7 +36,7 @@ const Projects: React.FC = () => {
       image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg',
       technologies: ['Angular', 'TypeScript', 'Material-UI', 'Responsive Design', 'HTML|CSS', 'SCSS', 'REST API', 'Stripe', 'Tailwind CSS', 'Bootstrap'],
       githubUrl: '#',
-      liveUrl: 'https://hire-io7ikqyx5-arsh-yadavs-projects-8a004559.vercel.app/',
+      liveUrl: 'https://hire-eq.vercel.app/login',
       category: 'Frontend'
     },
 
@@ -48,7 +48,7 @@ const Projects: React.FC = () => {
       image: 'https://plus.unsplash.com/premium_photo-1661883237884-263e8de8869b?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D',
       technologies: ['Angular', 'Chart.js', 'Restaurant API', 'CSS3', 'HTML|CSS', 'SCSS', 'REST API', 'Stripe', 'Tailwind CSS', 'Bootstrap'],
       githubUrl: '#',
-      liveUrl: 'https://restaurant-rgugm1xlo-arsh-yadavs-projects-8a004559.vercel.app/main',
+      liveUrl: 'https://restaurant-ui-sooty.vercel.app/main',
       category: 'Frontend'
     },
     // {
@@ -70,7 +70,7 @@ const Projects: React.FC = () => {
       image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg',
       technologies: ['React', 'Tailwind CSS', 'Framer Motion', 'Vercel'],
       githubUrl: '#',
-      liveUrl: 'http://portfolio-jpwqzoz48-arsh-yadavs-projects-8a004559.vercel.app/',
+      liveUrl: 'https://portfolio-delta-eosin-93.vercel.app/',
       category: 'Frontend'
     },
     {
