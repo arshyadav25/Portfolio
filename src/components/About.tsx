@@ -58,7 +58,7 @@ const About: React.FC = () => {
                         <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-700/50">
                             <h3 className="text-2xl font-bold text-white mb-4">My Journey</h3>
                             <p className="text-gray-300 leading-relaxed mb-6">
-                                as a Frontend Developer began 2 years ago, when I joined a startup as a UI Developer.
+                                as a Frontend Developer began 1.8 years ago, when I joined a startup as a UI Developer.
                                 I worked on multiple live projects using HTML, CSS, JavaScript, Angular, and React,
                                 focusing on building responsive and user-friendly interfaces. Over time, I improved
                                 my skills in writing clean code, integrating APIs, and creating modern UI components with
