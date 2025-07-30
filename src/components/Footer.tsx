@@ -46,7 +46,7 @@ const Footer: React.FC = () => {
           {/* Brand Section */}
           <div className="col-span-1">
             <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent mb-4">
-              Alex Smith
+              Arsh Yadav
             </h3>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Frontend Developer passionate about creating beautiful, functional, 
@@ -94,15 +94,15 @@ const Footer: React.FC = () => {
             <div className="space-y-3">
               <p className="text-gray-400">
                 <span className="text-white font-medium">Email:</span><br />
-                alex.smith@example.com
+                arrshrao55@gmail.com
               </p>
               <p className="text-gray-400">
                 <span className="text-white font-medium">Phone:</span><br />
-                +1 (555) 123-4567
+                +19 (975) 902-3070
               </p>
               <p className="text-gray-400">
                 <span className="text-white font-medium">Location:</span><br />
-                San Francisco, CA
+                Noida, India
               </p>
             </div>
           </div>
@@ -112,7 +112,7 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              © {new Date().getFullYear()} Alex Smith. All rights reserved.
+              © {new Date().getFullYear()} Arsh Yadav. All rights reserved.
             </p>
             
             <div className="flex items-center space-x-6 text-sm">
