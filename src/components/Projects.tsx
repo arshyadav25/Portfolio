@@ -19,48 +19,49 @@ const Projects: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'A modern e-commerce platform built with React and Node.js',
-      longDescription: 'A full-featured e-commerce platform with user authentication, product catalog, shopping cart, payment integration, and admin dashboard. Built using React, Node.js, Express, and MongoDB.',
+      title: 'Dynamic E-Commerce Platform',
+      description: 'A fully functional e-commerce platform built with Angular and Node.js, along with popular UI clone projects.',
+      longDescription: 'This is a complete full-stack e-commerce application developed using Angular for frontend and Node.js with Express and MongoDB for backend. It includes features like user authentication, product management, shopping cart, payment gateway integration (Stripe), and an admin dashboard. Alongside this, I’ve also built dynamic, responsive UI clones of platforms like Instagram, YouTube, Netflix, and Disney+ to sharpen my frontend skills and recreate real-world UIs using Angular and Tailwind CSS.',
       image: 'https://images.pexels.com/photos/34577/pexels-photo.jpg',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Tailwind CSS'],
+      technologies: ['Angular', 'HTML|CSS', 'SCSS', 'REST API', 'Stripe', 'Tailwind CSS', 'Bootstrap',],
       githubUrl: '#',
-      liveUrl: '#',
+      liveUrl: 'https://internship-journey-pmxjcrx1v-arsh-yadavs-projects-8a004559.vercel.app/routing',
       category: 'Full Stack'
     },
     {
       id: 2,
-      title: 'Task Management App',
-      description: 'A collaborative task management application',
-      longDescription: 'A comprehensive task management application featuring real-time collaboration, project organization, deadline tracking, and team communication tools. Perfect for remote teams and project management.',
+      title: 'Hire EQ – Team Task Management App',
+      description: 'A modern task management platform with real-time collaboration and productivity tools.',
+      longDescription: 'Hire EQ is a dynamic, responsive task management web app built with Angular and TypeScript. It enables teams to manage projects efficiently with features like real-time updates (via Firebase), task assignment, deadline tracking, status filters, and team messaging. The clean UI is built using Material-UI, ensuring a professional and user-friendly experience. Ideal for remote teams to stay organized and productive.',
       image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg',
-      technologies: ['React', 'TypeScript', 'Firebase', 'Material-UI'],
+      technologies: ['Angular', 'TypeScript', 'Material-UI', 'Responsive Design', 'HTML|CSS', 'SCSS', 'REST API', 'Stripe', 'Tailwind CSS', 'Bootstrap'],
       githubUrl: '#',
-      liveUrl: '#',
+      liveUrl: 'https://hire-io7ikqyx5-arsh-yadavs-projects-8a004559.vercel.app/',
       category: 'Frontend'
     },
+
     {
       id: 3,
-      title: 'Weather Dashboard',
-      description: 'Real-time weather monitoring dashboard',
-      longDescription: 'An intuitive weather dashboard providing real-time weather information, forecasts, and historical data visualization. Features location-based weather tracking and customizable widgets.',
-      image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg',
-      technologies: ['React', 'Chart.js', 'OpenWeather API', 'CSS3'],
+      title: 'Restaurant Dashboard',
+      description: 'Real-time restaurant management dashboard',
+      longDescription: 'An intuitive restaurant dashboard providing real-time analytics, order management, and customer insights. Features location-based service tracking and customizable widgets.',
+      image: 'https://plus.unsplash.com/premium_photo-1661883237884-263e8de8869b?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D',
+      technologies: ['Angular', 'Chart.js', 'Restaurant API', 'CSS3', 'HTML|CSS', 'SCSS', 'REST API', 'Stripe', 'Tailwind CSS', 'Bootstrap'],
       githubUrl: '#',
-      liveUrl: '#',
+      liveUrl: 'https://restaurant-rgugm1xlo-arsh-yadavs-projects-8a004559.vercel.app/main',
       category: 'Frontend'
     },
-    {
-      id: 4,
-      title: 'Blog CMS',
-      description: 'Content management system for bloggers',
-      longDescription: 'A powerful content management system designed for bloggers and content creators. Features rich text editing, media management, SEO optimization, and analytics integration.',
-      image: 'https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg',
-      technologies: ['Next.js', 'Prisma', 'PostgreSQL', 'Tailwind CSS'],
-      githubUrl: '#',
-      liveUrl: '#',
-      category: 'Full Stack'
-    },
+    // {
+    //   id: 4,
+    //   title: 'Blog CMS',
+    //   description: 'Content management system for bloggers',
+    //   longDescription: 'A powerful content management system designed for bloggers and content creators. Features rich text editing, media management, SEO optimization, and analytics integration.',
+    //   image: 'https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg',
+    //   technologies: ['Next.js', 'Prisma', 'PostgreSQL', 'Tailwind CSS'],
+    //   githubUrl: '#',
+    //   liveUrl: '#',
+    //   category: 'Full Stack'
+    // },
     {
       id: 5,
       title: 'Portfolio Website',
@@ -69,20 +70,21 @@ const Projects: React.FC = () => {
       image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg',
       technologies: ['React', 'Tailwind CSS', 'Framer Motion', 'Vercel'],
       githubUrl: '#',
-      liveUrl: '#',
+      liveUrl: 'http://portfolio-jpwqzoz48-arsh-yadavs-projects-8a004559.vercel.app/',
       category: 'Frontend'
     },
     {
       id: 6,
-      title: 'Social Media Dashboard',
-      description: 'Analytics dashboard for social media management',
-      longDescription: 'A comprehensive social media management dashboard with analytics, post scheduling, engagement tracking, and multi-platform integration. Perfect for social media managers and businesses.',
+      title: 'Instagram Clone',
+      description: 'Social media management and analytics dashboard',
+      longDescription: 'A feature-rich Instagram-inspired social media management tool. Includes analytics, post scheduling, engagement tracking, multi-platform integration, and Stripe-based payment features. Designed for social media managers and digital marketing teams.',
       image: 'https://images.pexels.com/photos/267389/pexels-photo-267389.jpeg',
-      technologies: ['Vue.js', 'D3.js', 'Express', 'MongoDB'],
+      technologies: ['Angular', 'HTML', 'CSS', 'SCSS', 'REST API', 'Stripe', 'Tailwind CSS', 'Bootstrap'],
       githubUrl: '#',
-      liveUrl: '#',
-      category: 'Full Stack'
+      liveUrl: 'https://internship-journey.vercel.app/instagram',
+      category: 'Frontend'
     }
+
   ];
 
   const openModal = (project: Project) => {
@@ -124,7 +126,7 @@ const Projects: React.FC = () => {
                   className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                
+
                 {/* Category Badge */}
                 <div className="absolute top-4 left-4">
                   <span className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-3 py-1 rounded-full text-sm font-medium">
@@ -138,7 +140,7 @@ const Projects: React.FC = () => {
                 <h3 className="text-xl font-bold text-white mb-2 group-hover:text-blue-400 transition-colors duration-300">
                   {project.title}
                 </h3>
-                
+
                 <p className="text-gray-300 mb-4 line-clamp-2">
                   {project.description}
                 </p>

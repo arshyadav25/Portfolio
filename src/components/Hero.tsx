@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Download, Github, Linkedin, Mail } from 'lucide-react';
+import profileImg from '../Assest/profile.jpg';
 
 const Hero: React.FC = () => {
   const [displayText, setDisplayText] = useState('');
@@ -85,7 +86,7 @@ const Hero: React.FC = () => {
               <div className="w-80 h-80 rounded-full bg-gradient-to-br from-blue-400/20 to-purple-600/20 p-2 animate-pulse">
                 <div className="w-full h-full rounded-full bg-gradient-to-br from-blue-500 to-purple-600 p-1">
                   <img
-                    src="https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg"
+                    src={profileImg}
                     alt="Profile"
                     className="w-full h-full rounded-full object-cover"
                   />
